@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+.logoimg{
+    width: 50px;
+}
+
+.logoimg img{
+    margin-right: 12px;
+}
+
+.bannarsection{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 160px 0px;
+   
+    position: relative;
+    z-index: 1;
+}
+
+.bannarsection::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+
+}
+
+
+.bannarcontent h1{
+    font-weight: bold;
+} 
+
+
+.aboutcontant{
+    
+    padding: 113px 0px;
+}
+
+/* about section */
+
+.futer-itam{
+    height: 300px;
+}
+
+
+.left-img{
+    width: 40%;
+}
+
+.left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+   
+}
+
+
+.right-contact{
+    width: 60%;
+    padding: 65px 22px;
+}
+
+.right-contact h4{
+
+    font-size: 21px; 
+    font-weight: unset;
+    padding-bottom: 10px;
+}
+
+.right-contact p{
+
+    font-size: 16px;
+}
