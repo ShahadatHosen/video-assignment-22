@@ -82,3 +82,142 @@ img{
 
     font-size: 16px;
 }
+
+.imgitam{
+
+}
+.imgitam a{
+    position: relative;
+    display: block;
+
+}
+.imgitam a::before{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #6279df7c;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.imgitam:hover a::before{
+    visibility: visible;
+}
+
+
+.sizebar h1{
+
+    font-size: 50px;
+    padding: 10px;
+}
+ 
+.priching-itam{
+    box-shadow: 1px 1px 6px -1px;
+
+    background-color: white;
+    padding: 28px;
+}
+
+.priching-itam h1{
+
+    font-size: 42px;
+}
+.priching-itam h5{ 
+
+}
+
+.priching-itam ul {
+    
+} 
+.priching-itam ul li{
+
+    font-size: 19px;
+    list-style: none;
+}
+
+.priching-itam ul li i{
+    
+    min-width: 35px; 
+    color: #6278df;
+    font-size: 26px;
+    margin-right: 6px;
+}
+
+.buttonbar a{
+    
+    transition: .4s;
+}
+
+.priching-itam:hover .buttonbar a{
+    background-color: #6278df;
+    color: white;
+}
+
+.buttonbar a:hover{
+    background-color: black !important;
+    color: white;
+}
+
+.sectionbar{
+    background-color: #f7f9ff;
+
+}
+
+.paddbar{
+
+    font-size: 19px;  
+    padding: 20px;
+}
+
+.heddeingbar{
+    
+    font-weight: bolder;
+}
+
+
+.batton{
+    background-color: #6278df;
+}
+
+}
+
+/* about section */
+
+.futer-itam{
+    height: 300px;
+}
+
+
+.left-img{
+    width: 40%;
+}
+
+.left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+   
+}
+
+
+.right-contact{
+    width: 60%;
+    padding: 65px 22px;
+}
+
+.right-contact h4{
+
+    font-size: 21px; 
+    font-weight: unset;
+    padding-bottom: 10px;
+}
+
+.right-contact p{
+
+    font-size: 16px;
+}
